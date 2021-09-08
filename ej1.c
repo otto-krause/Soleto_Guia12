@@ -1,10 +1,13 @@
-x#include <stdio.h>
-void mostrar(int a, int b){
-    printf("%d\n%d\n", a, b);
+#include <stdio.h>
+int escanear(){
+  int a;
+  printf("ingrese un numero: ");
+  scanf("%d", &a);
+  return a;
 }
 int main(){
     int a,b;
-    printf("ingrese dos numeros: ");
-    scanf("%d %d", &a, &b);
-    mostrar(a, b);
+    a = escanear();
+    b = escanear();
+    printf("%d\n%d\n", a, b);
 }
