@@ -1,5 +1,5 @@
 #include <stdio.h>
-char* comparar(int x, int y){
+char* comparar(int x, int y){ // retorna una cadena de caracteres
     if(x > y)
         return "mayor";
     if(x < y)

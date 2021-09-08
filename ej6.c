@@ -1,10 +1,10 @@
 #include <stdio.h>
-float octaba(int x){
+float octava(int x){ // retorna tipo float
     return (float)x/8;
 }
 int main(){
     int a;
     printf("ingrese un numero entero: ");
     scanf("%d", &a);
-    printf("la octaba parte es %f", octaba(a));
+    printf("la octava parte es %f", octava(a));
 }
