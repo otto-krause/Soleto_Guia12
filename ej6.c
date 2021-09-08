@@ -6,5 +6,5 @@ int main(){
     int a;
     printf("ingrese un numero entero: ");
     scanf("%d", &a);
-    printf("la ovtaba parte es %f", octaba(a));
+    printf("la octaba parte es %f", octaba(a));
 }
